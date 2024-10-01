@@ -1,4 +1,4 @@
- const BASE_URL = ``
+ const BASE_URL = `http://localhost:${process.env.PORT}/`
  
  const inpUserName = document.querySelector(`.usn`)
 
@@ -11,8 +11,18 @@
 
  btnSignIn.addEventListener("click",signIn)
 
+ btnRegister.addEventListener("click",register)
 
- const signIn = await fetch(BASE_URL,{
+
+ const signIn = await fetch(BASE_URL+'/auth/login',{
+    method:`POST`,
+    headers:{
+        'content-type': 'application/json'
+    },
+    body:await JSON.stringify(creatingObjectFromInput)
+ })
+
+ const register = await fetch(BASE_URL+'/auth/register',{
     method:`POST`,
     headers:{
         'content-type': 'application/json'
@@ -31,5 +41,6 @@
             username:inpUserName,
             password:inpPassword
         }
+        return newObj
     }
  }
