@@ -1,7 +1,7 @@
 body{
     height: 100%;
     width: 100%;
-    background-color: #c3b4b4;
+    background-color: #f9cdcd;
      
 }
 
@@ -17,9 +17,10 @@ h1{
     justify-content: center;
     align-items: center;
     margin: 10%;
-    background-color: #9d8996;
-     
-     
+    background-color: #d4b8ca;
+    padding: 1%;
+     border-radius: 10%;
+     width: 70%;
 }
 
 .login *{

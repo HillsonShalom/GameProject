@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #0c0c0c;
+}
+ table{
+    position: relative;
+    top: 60px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 150%;
+     left: 25%;
+ }
+
+th{
+    position: relative;
+    background-color: #fff;
+    height: 210px;
+    width: 70px;
+    justify-content: center;
+    border: #141313;
+    align-items: center;
+}
+ 
