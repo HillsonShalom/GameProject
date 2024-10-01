@@ -1,0 +1,32 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #c3b4b4;
+     
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    background-color: #9d8996;
+     
+     
+}
+
+.login *{
+    margin: 1%;
+}
+
+.login span{
+    display: flex;
+    left: 10%;
+}
