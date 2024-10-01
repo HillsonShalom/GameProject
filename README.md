@@ -4,6 +4,7 @@
 - register/auth/ POST
 - login/auth/ POST
 
+
 - games/ GET
 - start/games/ POST
 
