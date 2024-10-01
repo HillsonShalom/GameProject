@@ -30,3 +30,9 @@
 - act   { location: number }
 - game  { id: string, rival: string, date: Date, result: string }
 - start { ageinst: string } => game
+
+
+
+## .env
+PORT=5555 
+SECRET_KEY=my_secret_key
